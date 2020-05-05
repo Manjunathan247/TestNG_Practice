@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+	<test thread-count="5" name="CarLoan">
+		<groups>
+			<run>
+				<include name="webpage"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.practice.CarLoan" />
+			<class name="com.practice.HomeLoan" />
+			<class name="com.practice.PersonalLoan">
+
+				<methods>
+					<include name="apiLogin" />
+				</methods>
+
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

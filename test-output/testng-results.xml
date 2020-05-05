@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="59" started-at="2020-05-03T12:54:23Z" finished-at="2020-05-03T12:54:23Z">
+    <groups>
+      <group name="webpage">
+        <method signature="CarLoan.webLogin()[pri:0, instance:com.practice.CarLoan@7c16905e]" name="webLogin" class="com.practice.CarLoan"/>
+        <method signature="HomeLoan.webLogin()[pri:0, instance:com.practice.HomeLoan@2a2d45ba]" name="webLogin" class="com.practice.HomeLoan"/>
+      </group> <!-- webpage -->
+    </groups>
+    <test name="CarLoan" duration-ms="59" started-at="2020-05-03T12:54:23Z" finished-at="2020-05-03T12:54:23Z">
+      <class name="com.practice.CarLoan">
+        <test-method status="PASS" signature="webLogin()[pri:0, instance:com.practice.CarLoan@7c16905e]" name="webLogin" duration-ms="13" started-at="2020-05-03T12:54:23Z" finished-at="2020-05-03T12:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogin -->
+      </class> <!-- com.practice.CarLoan -->
+      <class name="com.practice.PersonalLoan">
+        <test-method status="PASS" signature="apiLogin()[pri:0, instance:com.practice.PersonalLoan@2a5ca609]" name="apiLogin" duration-ms="2" started-at="2020-05-03T12:54:23Z" finished-at="2020-05-03T12:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogin -->
+      </class> <!-- com.practice.PersonalLoan -->
+      <class name="com.practice.HomeLoan">
+        <test-method status="PASS" signature="webLogin()[pri:0, instance:com.practice.HomeLoan@2a2d45ba]" name="webLogin" duration-ms="3" started-at="2020-05-03T12:54:23Z" finished-at="2020-05-03T12:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogin -->
+      </class> <!-- com.practice.HomeLoan -->
+    </test> <!-- CarLoan -->
+  </suite> <!-- Regression -->
+</testng-results>
